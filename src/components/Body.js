@@ -8,8 +8,9 @@ const Body = () => {
         <div style={styles.textContainer}>
           <h2 style={styles.name}>Mariana Kushnir</h2>
           <p style={styles.position}>Software engineer</p>
-      </div>
-      </div>
+       </div>
+       </div>
+       <div style={styles.card}>
         <img src={"/avatar.png"} alt="Nazarii Kukiz" style={styles.photo} />
         <div style={styles.textContainer}>
           <h2 style={styles.name}>Nazarii Kukiz</h2>
