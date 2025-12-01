@@ -1,14 +1,20 @@
-﻿import React from "react";
+import React from "react";
 
 const Body = () => {
   return (
     <main style={styles.body}>
-      <div style={styles.card}>
+        <div style={styles.card}>
+        <img src={"/Michael_kaiser.jpg"} alt="Oleh Ozhinskyi" style={styles.photo} />
+        <div style={styles.textContainer}>
+          <h2 style={styles.name}>Oleh Ozhinskyi</h2>
+          <p style={styles.position}>Project Manager</p>
+        </div>
+        <div style={styles.card}>
         <img src={"/SitePhoto.png"} alt="Nahirnyi Vitalii" style={styles.photo} />
         <div style={styles.textContainer}>
           <h2 style={styles.name}>Nahirnyi Vitalii</h2>
           <p style={styles.position}>Student at Lviv Polytechnic</p>
-        </div>
+      </div>
       </div>
     </main>
   );
