@@ -10,6 +10,41 @@ const Body = () => {
                   <p style={styles.position}>Team Lead</p>
               </div>
           </div>
+      <div style={styles.card}>
+        <img src={"/NanaPic.jpg"} alt="Mariana Kushnir" style={styles.photo} />
+        <div style={styles.textContainer}>
+          <h2 style={styles.name}>Mariana Kushnir</h2>
+          <p style={styles.position}>Software engineer</p>
+       </div>
+       </div>
+       <div style={styles.card}>
+        <img src={"/avatar.png"} alt="Nazarii Kukiz" style={styles.photo} />
+        <div style={styles.textContainer}>
+          <h2 style={styles.name}>Nazarii Kukiz</h2>
+          <p style={styles.position}>Student</p>
+        </div>
+        </div>
+        <div style={styles.card}>
+        <img src={"/Michael_kaiser.jpg"} alt="Oleh Ozhinskyi" style={styles.photo} />
+        <div style={styles.textContainer}>
+          <h2 style={styles.name}>Oleh Ozhinskyi</h2>
+          <p style={styles.position}>Project Manager</p>
+        </div>
+        </div>
+        <div style={styles.card}>
+        <img src={"/SitePhoto.png"} alt="Nahirnyi Vitalii" style={styles.photo} />
+        <div style={styles.textContainer}>
+          <h2 style={styles.name}>Nahirnyi Vitalii</h2>
+          <p style={styles.position}>Student at Lviv Polytechnic</p>
+        </div>
+        </div>
+        <div style={styles.card}>
+        <img src={"/SitePhoto.png"} alt="Napoleon Bonaparte" style={styles.photo} />
+        <div style={styles.textContainer}>
+          <h2 style={styles.name}>Napoleon Bonaparte</h2>
+          <p style={styles.position}>French emperror</p>
+        </div>
+        </div>
     </main>
   );
 };
