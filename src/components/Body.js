@@ -31,6 +31,13 @@ const Body = () => {
           <p style={styles.position}>Student at Lviv Polytechnic</p>
         </div>
         </div>
+        <div style={styles.card}>
+        <img src={"/SitePhoto.png"} alt="Napoleon Bonaparte" style={styles.photo} />
+        <div style={styles.textContainer}>
+          <h2 style={styles.name}>Napoleon Bonaparte</h2>
+          <p style={styles.position}>French emperror</p>
+        </div>
+        </div>
     </main>
   );
 };
