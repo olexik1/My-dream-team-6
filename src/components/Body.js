@@ -1,4 +1,4 @@
-﻿import React from "react"; 
+import React from "react"; 
 
 
 const Body = () => {
@@ -8,7 +8,7 @@ const Body = () => {
               <img src={"/Murzik.png"} alt="Barsik" style={styles.photo} />
               <div style={styles.textContainer}>
                   <h2 style={styles.name}>Barsik</h2>
-                  <p style={styles.position}>Team Leader</p>
+                  <p style={styles.position}>Team Lead</p>
               </div>
           </div>
       <div style={styles.card}>
