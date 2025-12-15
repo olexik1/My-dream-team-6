@@ -1,10 +1,10 @@
-import React from "react";
+﻿import React from "react";
 
 const Body = () => {
   return (
     <main style={styles.body}>
           <div style={styles.card}>
-              <img src={"/Murzik.png"} alt="Murzik" style={styles.photo} />
+              <img src={"/Murzik.png"} alt="Barsik" style={styles.photo} />
               <div style={styles.textContainer}>
                   <h2 style={styles.name}>Murzik</h2>
                   <p style={styles.position}>Team Lead</p>
