@@ -1,4 +1,4 @@
-﻿import React from "react";
+import React from "react";
 
 const Body = () => {
   return (
@@ -89,3 +89,4 @@ const styles = {
 };
 
 export default Body;
+
