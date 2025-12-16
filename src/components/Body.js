@@ -30,7 +30,7 @@ const Body = () => {
         <img src={"/Michael_kaiser.jpg"} alt="Oleh Ozhinskyi" style={styles.photo} />
         <div style={styles.textContainer}>
           <h2 style={styles.name}>Oleh Ozhinskyi (vibecoder)</h2>
-          <p style={styles.position}>Great German emperror</p>
+          <p style={styles.position}>Great German vibecoder</p>
         </div>
         </div>
         <div style={styles.card}>
