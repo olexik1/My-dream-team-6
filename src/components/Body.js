@@ -1,14 +1,15 @@
-import React from "react";
+import React from "react"; 
+
 
 
 const Body = () => {
   return (
     <main style={styles.body}>
           <div style={styles.card}>
-              <img src={"/Murzik.png"} alt="Murzik" style={styles.photo} />
+              <img src={"/Murzik.png"} alt="Barsik" style={styles.photo} />
               <div style={styles.textContainer}>
-                  <h2 style={styles.name}>Murzik</h2>
-                  <p style={styles.position}>Team Lead</p>
+                  <h2 style={styles.name}>Barsik</h2>
+                  <p style={styles.position}>Team Lead(test234)</p>
               </div>
           </div>
       <div style={styles.card}>
@@ -28,8 +29,8 @@ const Body = () => {
         <div style={styles.card}>
         <img src={"/Michael_kaiser.jpg"} alt="Oleh Ozhinskyi" style={styles.photo} />
         <div style={styles.textContainer}>
-          <h2 style={styles.name}>Oleh Ozhinskyi</h2>
-          <p style={styles.position}>German emperror</p>
+          <h2 style={styles.name}>Oleh Ozhinskyi (vibecoder)</h2>
+          <p style={styles.position}>Great German emperror</p>
         </div>
         </div>
         <div style={styles.card}>
