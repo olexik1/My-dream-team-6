@@ -6,7 +6,7 @@ const Body = () => {
       <div style={styles.card}>
         <img src={"/Michael_kaiser.jpg"} alt="Oleh Ozhinskyi" style={styles.photo} />
         <div style={styles.textContainer}>
-          <h2 style={styles.name}>Oleh Ozhinskyi</h2>
+          <h2 style={styles.name}>Oleh Ozhinskyi (vibecoder)</h2>
           <p style={styles.position}>Great German emperror</p>
         </div>
       </div>
